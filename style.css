@@ -1,0 +1,104 @@
+/*==== General page settings====*/
+body {
+    background: linear-gradient(135deg, #fdf6e3 0%, #ecd0b3 100%);
+}
+
+h1 {
+    color: black;
+    text-align:  center ;
+    font-weight: bold;
+    font-size: 2.0rem;
+    font-family: "Great Vibes", cursive;
+}
+
+p {
+    font-family: Times New Roman;
+    font-size: 18px;
+}
+
+/* The Main Card Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* image */
+.image-container {
+    text-align: center;
+    
+  width: auto;              /* keeps original width */
+  max-width: 100%;          /* prevents it from exceeding container */
+  height: auto;             /* maintains aspect ratio */
+  border-radius: 8px;
+  display: block;           /* needed for centering */
+  margin: 20px auto;        /* centers horizontally with spacing */
+  box-shadow: 0 0 20px rgba(211, 84, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.image-container img {
+    width: 350px;
+    height: 250px;
+}
+/* typography*/
+h1, h2, h3 {
+    color: #5a3e2b;
+    font-family: "Great Vibes", cursive;
+}
+
+/* center the page*/
+h1, h2, h3, p {
+    text-align: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers left–right */
+    text-align: center;    /* centers all text */
+}
+/* custom list styling*/
+ol, ul {
+    color: #5a3e2f;  /* Warm brown text */
+}
+/* tips styling*/
+.tips {
+    font-family: "Times New Roman";
+    font-size: 18px;
+
+}
+table { 
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0; /* More space around it */
+  font-size: 0.95em; /* Slightly smaller */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Tiny shadow for depth */
+  color: black; /* Makes all table text black */
+}
+
+th,
+td {
+  padding: 18px 15px; /* More breathing room */
+  text-align: left;
+  border-bottom: 1px solid black; /* Line under each row */
+  color: black; /* Ensures cells text is black */
+}
+
+th {
+  background-color: #ecd0b3;
+  color: black; /* Makes header text black */
+  text-transform: uppercase; /* Makes headers look more official */
+  letter-spacing: 1px;
+  font-size: 0.85em;
+}
+
+
+/* selection spacing*/
+section {
+    margin-bottom: 30px;
+}

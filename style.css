@@ -97,6 +97,17 @@ th {
   letter-spacing: 1px;
   font-size: 0.85em;
 }
+/* click icon*/
+.click-icon {
+    text-decoration: none;
+    color: #5a3e2b;
+    font-weight: bold;
+}
+
+.click-icon:hover {
+    color: #d35400;
+    cursor: pointer;
+}
 
 
 /* selection spacing*/

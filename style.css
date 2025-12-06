@@ -17,7 +17,7 @@ p {
 }
 
 /* The Main Card Container */
-#video-container {
+.container {
   max-width: 800px;
   margin: 0 auto;
   background-color: white;
@@ -29,7 +29,7 @@ p {
 
 
 /* image */
-#image-container {
+.image-container {
     text-align: center;
     
   width: auto;              /* keeps original width */
@@ -42,7 +42,7 @@ p {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
-#image-container img {
+.image-container img {
     width: 350px;
     height: 250px;
 }
@@ -113,7 +113,7 @@ th {
     margin: 20px 0;
 }
 
-#video-container iframe {
+.video-container iframe {
     max-width: 100%;
     height: auto;
     border-radius: 8px;

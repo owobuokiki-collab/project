@@ -64,6 +64,7 @@ body {
 }
 /* custom list styling*/
 ol, ul {
+    font-size: 0.8rem;
     font-size: 18px;
     font-weight: 500;
     color: #5a3e2f;  /* Warm brown text */
